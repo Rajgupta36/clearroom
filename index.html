@@ -10,7 +10,8 @@
 <meta property="og:image" content="https://rajgupta36.github.io/clearroom/img/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#F5F5F7" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
-<link rel="stylesheet" href="style.css?v=2"><link rel="icon" href="favicon.png">
+<script>(function(d){if(!matchMedia('(prefers-reduced-motion: reduce)').matches){d.classList.add('motion');setTimeout(function(){if(!window.__siteReady)d.classList.remove('motion')},2500)}})(document.documentElement)</script>
+<link rel="stylesheet" href="style.css?v=4"><link rel="icon" href="favicon.png">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -81,7 +82,7 @@
 <main id="main" class="wrap">
 
 <div class="hero">
-<div>
+<div data-hero-text>
 <p class="eyebrow">Photo cleaner for iPhone</p>
 <h1>Free up space.<br><em>Honestly.</em></h1>
 <p class="lede">Clearroom finds duplicate photos, similar shots, blurry pictures, old screenshots and big videos. You see what it found and why. You decide what goes.</p>
@@ -89,47 +90,47 @@
 <p class="note">Free to scan. iPhone with iOS 17 or later.</p>
 <ul class="chips"><li>Works on your iPhone</li><li>No account</li><li>No ads</li><li>No weekly plans</li></ul>
 </div>
-<div class="phone"><img src="img/app/1-dashboard.jpg" alt="Clearroom home screen: you can free up 54.8 GB, split into duplicates, similar shots, blurry photos, screenshots and large videos" width="660" height="1434"></div>
+<div class="stage" data-hero-phone><div class="phone"><img src="img/app/1-dashboard.jpg" alt="Clearroom home screen: you can free up 54.8 GB, split into duplicates, similar shots, blurry photos, screenshots and large videos" width="660" height="1434"></div></div>
 </div>
 
-<div class="proof" aria-label="What Clearroom checks">
-<div><b>6</b><span>things it cleans, from copies to contacts</span></div>
+<div class="proof" aria-label="What Clearroom checks" data-stagger>
+<div><b data-count="6">6</b><span>things it cleans, from copies to contacts</span></div>
 <div><b>0</b><span>photos uploaded, ever</span></div>
-<div><b>30 days</b><span>to get anything back from Recently Deleted</span></div>
+<div><b><span data-count="30">30</span> days</b><span>to get anything back from Recently Deleted</span></div>
 <div><b>$0</b><span>to scan and see what you can free</span></div>
 </div>
 
 <section id="features">
-<div class="head"><h2>Everything that fills up<br>your camera roll.</h2><p>Clearroom checks your whole library on your iPhone and shows how much space each kind of clutter really takes.</p></div>
+<div class="head" data-reveal><h2>Everything that fills up<br>your camera roll.</h2><p>Clearroom checks your whole library on your iPhone and shows how much space each kind of clutter really takes.</p></div>
 
-<div class="feature">
+<div class="feature" data-reveal>
 <div class="text"><span class="tag">Duplicates</span><h3>The same photo, saved twice. Or ten times.</h3>
 <p>Clearroom finds exact copies, including Live Photos and bursts. It keeps the best one of each set and selects the rest for you.</p>
 <ul class="ticks"><li>Tap any photo to keep it too</li><li>See the real size of every copy</li></ul></div>
 <div class="phone small"><img src="img/app/2-duplicates.jpg" alt="Duplicate photos grouped in sets, one kept and the copies selected" loading="lazy" width="660" height="1434"></div>
 </div>
 
-<div class="feature flip">
+<div class="feature flip" data-reveal>
 <div class="text"><span class="tag">Similar shots</span><h3>Ten tries at one photo. Keep the best.</h3>
 <p>Photos taken seconds apart that look almost the same are grouped together. Clearroom suggests the sharpest one and tells you why it picked it.</p>
 <ul class="ticks"><li>The reason is shown for every group</li><li>Blurry photos and receipts get their own list</li></ul></div>
 <div class="phone small"><img src="img/app/3-similar.jpg" alt="Similar shots grouped, with the sharpest one kept and the reason shown" loading="lazy" width="660" height="1434"></div>
 </div>
 
-<div class="feature">
+<div class="feature" data-reveal>
 <div class="text"><span class="tag">Swipe mode</span><h3>Go through a month in a minute.</h3>
 <p>One photo at a time. Swipe right to keep, left to delete. Undo is always one tap away, and nothing is deleted until you confirm at the end.</p>
 <ul class="ticks"><li>Month by month, so it never feels endless</li><li>Undo any swipe</li></ul></div>
 <div class="phone small"><img src="img/app/4-swipe.jpg" alt="Swipe mode showing one photo with Delete, Undo and Keep buttons" loading="lazy" width="660" height="1434"></div>
 </div>
 
-<div class="feature flip">
+<div class="feature flip" data-reveal>
 <div class="text"><span class="tag">Screenshots and videos</span><h3>Old screenshots and the videos you forgot.</h3>
 <p>Screenshots are listed oldest first, so the boarding passes from 2021 go first. Large videos are sorted by size, so you see what takes the most space.</p></div>
 <div class="phone small"><img src="img/app/5-screenshots.jpg" alt="Old screenshots listed oldest first, ready to clear out" loading="lazy" width="660" height="1434"></div>
 </div>
 
-<div class="feature">
+<div class="feature" data-reveal>
 <div class="text"><span class="tag">Contacts</span><h3>Three cards for the same person? Make it one.</h3>
 <p>Clearroom finds cards that share a phone number, an email or a full name. It keeps the fullest card and copies over anything the others have.</p>
 <ul class="ticks"><li>A backup is saved before every merge</li><li>Undo the merge any time</li></ul></div>
@@ -137,16 +138,16 @@
 </div>
 </section>
 
-<section>
-<div class="head center"><h2>Three steps. You stay in charge.</h2></div>
-<div class="grid3">
+<section class="mist">
+<div class="head center" data-reveal><h2>Three steps. You stay in charge.</h2></div>
+<div class="grid3" data-stagger>
 <div class="card"><div class="num">1. Scan</div><h3>See the real numbers</h3><p>Clearroom measures your library on your iPhone and shows how much each category takes, from your actual file sizes.</p></div>
 <div class="card"><div class="num">2. Review</div><h3>Know why</h3><p>Open a category. Every group says why it was made, and the best photo is already kept for you.</p></div>
 <div class="card"><div class="num">3. Delete</div><h3>Confirm, safely</h3><p>You confirm in the iPhone's own delete dialog. Everything stays in Recently Deleted for 30 days.</p></div>
 </div>
 </section>
 
-<div class="band" id="privacy">
+<div class="band" id="privacy" data-reveal>
 <div>
 <h2>Your photos never leave your iPhone.</h2>
 <p>Clearroom has no servers to send them to. No account, no analytics, no ads, no tracking code. The App Store privacy label says "Data Not Collected", and that's the whole story.</p>
@@ -157,8 +158,8 @@
 </div>
 
 <section>
-<div class="head center"><h2>Not like other cleaner apps.</h2><p>Many cleaners open with a scary scan, then ask for about $8 a week. Clearroom does it differently.</p></div>
-<table class="compare">
+<div class="head center" data-reveal><h2>Not like other cleaner apps.</h2><p>Many cleaners open with a scary scan, then ask for about $8 a week. Clearroom does it differently.</p></div>
+<table class="compare" data-reveal>
 <thead><tr><th scope="col"></th><th scope="col">Clearroom</th><th scope="col">Typical cleaner app</th></tr></thead>
 <tbody>
 <tr><td>Storage numbers</td><td>From your real file sizes</td><td>Often a big, vague number</td></tr>
@@ -170,8 +171,8 @@
 </section>
 
 <section id="pricing">
-<div class="head center"><h2>Fair pricing. No weekly plans.</h2><p>Scan for free and see exactly what you can free up before you pay anything.</p></div>
-<div class="prices">
+<div class="head center" data-reveal><h2>Fair pricing. No weekly plans.</h2><p>Scan for free and see exactly what you can free up before you pay anything.</p></div>
+<div class="prices" data-stagger>
 <div class="price"><span class="name">Free</span><span class="amount">$0</span><span class="per">forever</span><p>Unlimited scans. Delete up to 30 items a day. A taste of swipe mode.</p></div>
 <div class="price best"><span class="badge">Best value</span><span class="name">Pro yearly</span><span class="amount">$39.99</span><span class="per">per year, about $3.33 a month</span><p>14 days free. We remind you 2 days before the trial ends.</p></div>
 <div class="price"><span class="name">Pro monthly</span><span class="amount">$6.99</span><span class="per">per month</span><p>No daily limit. Cancel any time in iPhone Settings.</p></div>
@@ -181,8 +182,8 @@
 </section>
 
 <section id="faq">
-<div class="head center"><h2>Questions</h2></div>
-<div class="faq">
+<div class="head center" data-reveal><h2>Questions</h2></div>
+<div class="faq" data-stagger>
 <details open><summary>How do I delete duplicate photos on iPhone?</summary><p>Open Clearroom and let it scan your library. Tap Duplicates to see every set of exact copies. Clearroom keeps one photo from each set and selects the rest; untick anything you want to keep, then tap Delete. Deleted photos stay in Recently Deleted for 30 days.</p></details>
 <details><summary>Is Clearroom safe? Do my photos leave my iPhone?</summary><p>Your photos never leave your iPhone. Clearroom has no servers, no account, no ads and no analytics. All scanning happens on the device, and nothing is deleted until you confirm in the iPhone's own delete dialog.</p></details>
 <details><summary>How much does Clearroom cost?</summary><p>Scanning is free, and you can delete up to 30 items a day for free. Clearroom Pro removes the limit for $39.99 a year (14-day free trial), $6.99 a month, or $79.99 once. There is no weekly plan.</p></details>
@@ -193,7 +194,7 @@
 </div>
 </section>
 
-<div class="cta">
+<div class="cta" data-reveal>
 <img src="img/icon-256.png" alt="Clearroom app icon" width="88" height="88">
 <h2>Clean your iPhone in minutes.</h2>
 <p class="lede" style="margin:0 auto 28px">No fake scans. No weekly plans.</p>
@@ -205,4 +206,6 @@
 <span>Clearroom. Made by one independent developer.</span>
 <nav aria-label="Footer"><a href="privacy.html">Privacy policy</a><a href="support.html">Support</a><a href="press.html">Press kit</a></nav>
 </div></footer>
+<script src="js/motion.js" defer></script>
+<script src="js/site.js?v=2" defer></script>
 </body></html>
