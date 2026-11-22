@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rajgupta36.github.io/clearroom/sitemap.xml

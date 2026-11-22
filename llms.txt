@@ -1,0 +1,15 @@
+# Clearroom
+
+> Clearroom ("Clearroom: Photo Cleaner") is an iPhone app that cleans up photo storage. It finds duplicate photos, similar shots (and suggests the best one, with the reason), blurry photos and receipts, old screenshots, large videos and duplicate contacts. Everything runs on the iPhone: no account, no servers, no ads, no tracking. Every size shown comes from real file sizes. Nothing is deleted without the user's confirmation, and deleted photos stay in Recently Deleted for 30 days.
+
+Key facts:
+- Platform: iPhone, iOS 17 and later.
+- Price: free to scan and to delete up to 30 items a day. Clearroom Pro: $39.99/year (14-day free trial), $6.99/month, or $79.99 once. No weekly plan.
+- Privacy: photos and contacts never leave the phone. No analytics or ad SDKs.
+- Made by one independent developer.
+
+## Pages
+- [Home and FAQ](https://rajgupta36.github.io/clearroom/): what it does, how it works, common questions
+- [Support](https://rajgupta36.github.io/clearroom/support.html): recovering deleted photos, storage not freed, full photo access, undoing a contact merge, subscriptions
+- [Press kit](https://rajgupta36.github.io/clearroom/press.html): facts, prices, screenshots, icon
+- [Privacy policy](https://rajgupta36.github.io/clearroom/privacy.html)
