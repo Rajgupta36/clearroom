@@ -4,7 +4,7 @@
 
 Key facts:
 - Platform: iPhone, iOS 17 and later.
-- Price: free to scan and to delete up to 30 items a day. Clearroom Pro: $39.99/year (14-day free trial), $6.99/month, or $79.99 once. No weekly plan.
+- Price: free to scan and to delete up to 30 items a day. Clearroom Pro: $19.99/year (14-day free trial), $3.99/month, or $29.99 once. No weekly plan.
 - Privacy: photos and contacts never leave the phone. No analytics or ad SDKs.
 - Made by one independent developer.
 
